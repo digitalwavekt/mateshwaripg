@@ -1,21 +1,21 @@
 const owners = [
   {
-    name: "John Doe",
-    role: "Property Manager",
+    name: "Virendra Singh Naruka",
+    role: "Director",
     image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3",
-    description: "With 15 years of experience in hospitality management, John ensures the highest standards of service and comfort for all guests.",
+    description: "Virendra leads the team and ensures that the PG is run efficiently and effectively.",
   },
   {
-    name: "Jane Smith",
-    role: "Customer Relations",
+    name: "Nitesh Kumar Saini",
+    role: "Director",
     image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3",
-    description: "Jane handles all guest relations and ensures that your stay is comfortable and memorable.",
+    description: "Nitesh leads the Management For Comfort Leaving and All Technical works",
   },
   {
-    name: "John Doe",
-    role: "Property Manager",
+    name: "Ankit Kumar Saini",
+    role: "Saftey Manager",
     image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3",
-    description: "With 15 years of experience in hospitality management, John ensures the highest standards of service and comfort for all guests.",
+    description: "Ankit Leads The Saftey , Security And Health Of The PG",
   }
 ];
 
