@@ -14,9 +14,10 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-semibold mb-4">About Mateshwari PG</h3>
             <p className="text-gray-400 mb-4">
-              CozyStay provides premium paying guest accommodations with a focus on
-              comfort, security, and a welcoming community environment. Your home
-              away from home in the heart of the city.
+            We MATESHWARI PG ,
+             are opening our first of Ever Modern And Professional PG , Where You Will Get PeaceFul
+              Study Environment Place and A Comfort Living Place.
+            Its like feel home while to be out from home.
             </p>
           </div>
 

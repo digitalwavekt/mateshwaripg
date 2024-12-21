@@ -1,23 +1,29 @@
-import { Bed, Users, Wifi, Bath } from "lucide-react";
+import { Bed, Users, Wifi, Bath ,Table} from "lucide-react";
 
 const rooms = [
   {
     title: "Standard Single Room",
-    price: "$299/month",
+    price: "7500/month",
     image: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?ixlib=rb-4.0.3",
     features: ["Single Bed", "Shared Bathroom", "Wi-Fi", "Study Table"],
   },
   {
-    title: "Deluxe Double Room",
-    price: "$499/month",
+    title: "Deluxe Double Bed Room",
+    price: "600/month",
     image: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?ixlib=rb-4.0.3",
-    features: ["Double Bed", "Private Bathroom", "Wi-Fi", "Balcony"],
+    features: ["Double Bed", "shared Bathroom", "Wi-Fi", "Balcony", "Study Table","Personal wardRob"],
   },
   {
-    title: "Premium Suite",
-    price: "$699/month",
+    title: "Standed Triple Bed Room",
+    price: "6500/month",
     image: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?ixlib=rb-4.0.3",
-    features: ["King Bed", "En-suite Bathroom", "Wi-Fi", "Living Area"],
+    features: ["King Bed", "Shared Bathroom", "Wi-Fi", "Living Area","Study Table","Personal wardRob"],
+  },
+  {
+    title: "Premium Triple Bed Room",
+    price: "7000/month",
+    image: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?ixlib=rb-4.0.3",
+    features: ["King Bed", "Private Bathroom", "Wi-Fi", "Living Area","Study Table","Personal wardRob"],
   },
 ];
 
@@ -25,7 +31,7 @@ const Rooms = () => {
   return (
     <div className="container mx-auto px-4">
       <h2 className="text-4xl font-bold text-center mb-12">Our Rooms</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
         {rooms.map((room, index) => (
           <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden">
             <div
@@ -42,6 +48,8 @@ const Rooms = () => {
                     {idx === 1 && <Bath size={20} />}
                     {idx === 2 && <Wifi size={20} />}
                     {idx === 3 && <Users size={20} />}
+                    {idx === 4 && <Table size={20} />}
+                  
                     {feature}
                   </li>
                 ))}
