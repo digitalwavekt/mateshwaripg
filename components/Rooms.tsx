@@ -3,25 +3,25 @@ import { Bed, Users, Wifi, Bath ,Table} from "lucide-react";
 const rooms = [
   {
     title: "Standard Single Room",
-    price: "7500/month",
+    price: "7000/month",
     image: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?ixlib=rb-4.0.3",
     features: ["Single Bed", "Shared Bathroom", "Wi-Fi", "Study Table"],
   },
   {
     title: "Deluxe Double Bed Room",
-    price: "600/month",
+    price: "6000/month",
     image: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?ixlib=rb-4.0.3",
     features: ["Double Bed", "shared Bathroom", "Wi-Fi", "Balcony", "Study Table","Personal wardRob"],
   },
   {
     title: "Standed Triple Bed Room",
-    price: "6500/month",
+    price: "5500/month",
     image: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?ixlib=rb-4.0.3",
     features: ["King Bed", "Shared Bathroom", "Wi-Fi", "Living Area","Study Table","Personal wardRob"],
   },
   {
     title: "Premium Triple Bed Room",
-    price: "7000/month",
+    price: "6500/month",
     image: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?ixlib=rb-4.0.3",
     features: ["King Bed", "Private Bathroom", "Wi-Fi", "Living Area","Study Table","Personal wardRob"],
   },
