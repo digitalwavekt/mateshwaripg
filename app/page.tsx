@@ -6,6 +6,7 @@ import Hero from "@/components/Hero";
 import Rooms from "@/components/Rooms";
 import Services from "@/components/Services";
 import Owners from "@/components/Owners";
+import Gallery from "@/components/Gallery";
 import Contact from "@/components/Contact";
 import Map from "@/components/Map";
 import Footer from "@/components/Footer";
@@ -25,6 +26,11 @@ export default function Home() {
         <section id="services" className="py-16 bg-gray-50">
           <Services />
         </section>
+
+        <section id="gallery" className="py-16">
+          <Gallery />
+        </section>
+
         <section id="owners" className="py-16">
           <Owners />
         </section>
